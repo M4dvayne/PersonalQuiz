@@ -5,6 +5,7 @@
 //  Created by Вячеслав Кремнев on 1/29/22.
 //
 
+
 struct Question {
     let title: String
     let type: ResponseType
