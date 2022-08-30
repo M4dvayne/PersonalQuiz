@@ -25,7 +25,7 @@ class ResultViewController: UIViewController {
         
         var duplicatedAnimals: [Animal: Int] = [:]
         
-        let animals = userResult.map({$0.animal})
+        let animals = userResult.map { $0.animal }
         
         for animal in animals {
             if let existingAnimal = duplicatedAnimals[animal] {

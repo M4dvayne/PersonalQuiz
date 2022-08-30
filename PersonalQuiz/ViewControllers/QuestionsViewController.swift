@@ -39,7 +39,7 @@ class QuestionsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-     updateUI()
+        updateUI()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -77,7 +77,7 @@ extension QuestionsViewController {
             stackView?.isHidden = true
         }
         let currentQuestion = questions[questionIndex]
-    
+        
         questionLabel.text = currentQuestion.title
         
         let totalProgress = Float(questionIndex) / Float(questions.count)
